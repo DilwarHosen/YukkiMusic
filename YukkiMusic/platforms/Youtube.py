@@ -14,7 +14,7 @@ import random
 import asyncio
 from typing import Union
 
-from async_lru import alru_cache
+#from async_lru import alru_cache
 from yt_dlp import YoutubeDL
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
