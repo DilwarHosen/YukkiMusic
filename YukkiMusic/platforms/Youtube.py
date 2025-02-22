@@ -93,7 +93,7 @@ class YouTube:
             return None
         return text[offset : offset + length]
 
-    @alru_cache(maxsize=None)
+#    @alru_cache(maxsize=None)
     async def details(self, link: str, videoid: Union[bool, str] = None):
         if videoid:
             link = self.base + link
